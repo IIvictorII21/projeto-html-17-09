@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento - Honkai: Star Rail</title>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Expresso Astral — Central de Alistamento</h1>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL COM O FORMULÁRIO -->
+    <main>
+        <section>
+            <h2>Formulário de Recrutamento para o Expresso</h2>
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nome">Nome do Desbravador:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Caelus ou Stelle" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail de Contato:</label><br>
+                    <input type="email" id="email" name="email" placeholder="exemplo@expresso.com" required>
+                </p>
+
+                <p>
+                    <label for="nascimento">Data de Registro estelar:</label><br>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </p>
+
+                <p>
+                    <label for="caminho">Qual caminho parece ser mais interessante?</label><br>
+                    <input list="caminhos" id="caminho" name="caminho" placeholder="Digite ou selecione..." required>
+                    <datalist id="caminhos">
+                        <option value="A Destruição">
+                        <option value="A Caça">
+                        <option value="A Erudição">
+                        <option value="A Harmonia">
+                        <option value="A Preservação">
+                        <option value="A Abundância">
+                        <option value="O Niilismo">
+                        <option value="A Recordação">
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="nivel-afinidade">Nível de Afinidade com o Honkai (0 a 100):</label><br>
+                    <input type="range" id="nivel-afinidade" name="nivel-afinidade" min="0" max="100" step="5">
+                </p>
+
+                <button type="submit">finalizar cadastro</button>
+            </form>
+            <!-- NOVO BLOCO COM O LINK DO JOGO -->
+            <p>
+                Já terminou? Prossiga fazendo o download do jogo no <a href="https://hsr.hoyoverse.com/"
+                    target="_blank">site oficial de Honkai: Star Rail</a>.
+            </p>
+        </section>
+    </main>
+
+    <!-- MENU DE NAVEGAÇÃO -->
+    <nav>
+        <h2>Menu de Navegação</h2>
+        <ul>
+            <li><a href="inicio.html">Início</a></li>
+            <li><a href="expresso-astral.html">Expresso Astral</a></li>
+            <li><a href="estacao-herta.html">Estação Herta</a></li>
+            <li><a href="jarilo-vi.html">Jarilo-VI</a></li>
+            <li><a href="xianzhou.html">Xianzhou Luofu</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="trilha-sonora.html">Trilha Sonora</a></li>
+            <li><a href="galeria.html">Galeria e Vídeos</a></li>
+            <li><a href="cadastro-expedicao.html">Entrar na Tripulação</a></li>
+            <li><a href="sobre.html">Sobre o Projeto</a></li>
+        </ul>
+    </nav>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2026 Projeto Educacional Honkai Star Rail.</p>
+    </footer>
+
+</body>
+
+</html>
