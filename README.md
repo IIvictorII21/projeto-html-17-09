@@ -6,7 +6,7 @@ O objetivo da atividade era criar um site com mais de 10 páginas usando APENAS 
 
 ---
 
-## 📁 Como tá organizada a pasta do projeto
+## Como tá organizada a pasta do projeto
 
 Organizei tudo em pastas certinhas:
 
